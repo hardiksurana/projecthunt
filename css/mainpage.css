@@ -1,0 +1,62 @@
+.my-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px #262F36;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-color: #ccc;
+    box-shadow: 0 0 7px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+img.my-card{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #B2EBF2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.domain{
+    font-size:30px;
+    cursor:pointer;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+}
