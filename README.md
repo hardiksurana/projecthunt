@@ -65,4 +65,4 @@ Create the following tables with the respective columns:
 ## Contributors
 * **Hardik Surana** - [Hardik](https://github.com/hardiksurana)
 * **Gavrish Prabhu** - [Gavrish](https://github.com/Gavrish)
-* **Gurunandan N** - [Gurunandan]()
+* **Gurunandan N** - [Gurunandan](https://github.com/ngurunandan)
