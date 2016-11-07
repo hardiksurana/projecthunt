@@ -1,0 +1,115 @@
+.projectImg{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.description{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-details{
+    max-width: 60%;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.carousel-indicators li {
+  background-color: #999 !important;
+  background-color: #B2EBF2 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #262F36 !important;
+}
+
+.fa-chevron-left{
+    color: #262F36;
+    margin-top: 100px;
+}
+
+.fa-chevron-right{
+    color: #262F36;
+    margin-top: 100px;
+}
+
+.blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #262F36;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.blockquote p {
+  display: inline;
+}
+
+#circle{
+    border-radius:50% 50% 50% 50%;
+    width:40px;
+    height:40px;
+}
+
+.left-msg{
+    position: relative;
+    width:90%;
+    min-height: 30px;
+    color:#ffffff;
+    padding:4px 4px 4px 12px;
+    margin-bottom:10px;
+    background: rgba(101,148,204,.8);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.left-msg:after{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 6px 12px 6px 0;
+    border-color: transparent rgba(101,148,204,.8);
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -12px;
+    top: 3px;
+}
+
+.right-msg{
+    float:left;
+}
+
+.left-msg{
+    float:right;
+}
+
+.left-img{
+    float:left;
+    margin-bottom:10px;
+}
+
+.right-img{
+    float:right;
+    padding-bottom:-10px;
+    margin-bottom:10px;
+}
+
+.mirror{
+    display:block;
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
