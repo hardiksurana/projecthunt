@@ -22,7 +22,7 @@ Create the following tables with the respective columns:
 | user_name  | varchar(50) | YES  |     | NULL    |                |
 | user_email | varchar(50) | YES  |     | NULL    |                |
 | user_pass  | varchar(50) | YES  |     | NULL    |                |
-| image_name | longblob    | YES  |     | NULL    |                |
+| image_name | varchar(100)| YES  |     | NULL    |                |
 +------------+-------------+------+-----+---------+----------------+
 
 ```
