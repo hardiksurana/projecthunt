@@ -158,15 +158,6 @@
     											</div>
     										</div>
     									</div>
-    									<div class="form-group">
-    										<div class="row">
-    											<div class="col-lg-12">
-    												<div class="text-center">
-    													<a href="reset_password.php" tabindex="5" class="forgot-password">Forgot Password?</a>
-    												</div>
-    											</div>
-    										</div>
-    									</div>
     								</form>
     								<form id="register-form" method="post" role="form" style="display: none;">
     									<div class="form-group">
@@ -178,7 +169,6 @@
     									<div class="form-group">
     										<input type="password" name="pass" id="password" tabindex="2" class="form-control" placeholder="Password">
     									</div>
-
     									<div class="form-group">
     										<div class="row">
     											<div class="col-sm-6 col-sm-offset-3">
